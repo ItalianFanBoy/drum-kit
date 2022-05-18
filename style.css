@@ -50,4 +50,12 @@ main{
     border: 3px solid white;
     user-select: none;
     cursor: pointer;
+    transition: transform .2s;
+}
+
+
+.active{
+    transform: scale(1.3);
+    border-color: yellow;
+    box-shadow: 0 0 50px;
 }
